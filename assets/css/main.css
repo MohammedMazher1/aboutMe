@@ -141,7 +141,7 @@ body {
 
 .landing {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(550px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
     grid-auto-flow: dense;
     font-family: bodyFonts;
     min-height: 250px;
