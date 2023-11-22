@@ -382,12 +382,14 @@ main .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .Acounts .social .acount{
     width: 200px;
     border: 1px solid var(--main--color);
     padding: 5px;
     margin-bottom: 10px;
+    text-align: start;
     border-radius: 10px 5px;
     transition: all 0.5s ease;
 }
