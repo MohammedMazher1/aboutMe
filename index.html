@@ -18,11 +18,12 @@
 <body>
   
   <header class="header">
-    <div class="container">
+    <div class="container dark">
         <a title="nothing" href="#" class="logo">
           <img src="assets/img/logo.png" alt="">
         </a>
         <nav>
+            <i class="fa-regular fa-moon dark_light"></i>
             <i class="fas fa-bars toggle-menu"></i>
             <ul>
                 <li><a href="#aboutMe" class="active">About me</a></li>
@@ -267,6 +268,21 @@ $('.toggle-menu').click(function(){
   }
 
 })
+$('.dark_light').on('click',function(){
+  var root = document.querySelector(':root');
+  if($('.dark_light').hasClass('fa-regular')){
+    root.style.setProperty('--main--color', '#16101be7');
+    root.style.setProperty('--background-color', '#134b41');
+    $('.dark_light').removeClass('fa-regular');
+    $('.dark_light').addClass('fa-solid');
+  }else{
+    root.style.setProperty('--main--color', '#51326E');
+    root.style.setProperty('--background-color', '#03bf9e');
+    $('.dark_light').removeClass('fa-solid');
+    $('.dark_light').addClass('fa-regular');
+  }
+ 
+});
 </script>
 </body>
 </html>
