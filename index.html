@@ -271,13 +271,13 @@ $('.toggle-menu').click(function(){
 $('.dark_light').on('click',function(){
   var root = document.querySelector(':root');
   if($('.dark_light').hasClass('fa-regular')){
-    root.style.setProperty('--main--color', '#16101be7');
-    root.style.setProperty('--background-color', '#134b41');
+    root.style.setProperty('--main--color', '#51326E');
+    root.style.setProperty('--background-color', '#03bf9e');
     $('.dark_light').removeClass('fa-regular');
     $('.dark_light').addClass('fa-solid');
   }else{
-    root.style.setProperty('--main--color', '#51326E');
-    root.style.setProperty('--background-color', '#03bf9e');
+    root.style.setProperty('--main--color', '#16101be7');
+    root.style.setProperty('--background-color', '#134b41');
     $('.dark_light').removeClass('fa-solid');
     $('.dark_light').addClass('fa-regular');
   }

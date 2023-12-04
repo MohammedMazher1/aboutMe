@@ -20,11 +20,11 @@
 /*#region Variable */
 
 :root{
-    --background-color:#03bf9e;
+    --background-color:#134b41;
     --font-color:#03bf9e;
-    --dBackground-color:#134b41;
-    --main--color:#51326E;
-    --dark--color:#16101be7;
+    --dBackground-color:#03bf9e;
+    --main--color:#16101be7;
+    --dark--color:#51326E;
     /* --font-color:#FCEDE7; */
     --white-color:white;
 }
