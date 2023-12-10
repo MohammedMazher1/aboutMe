@@ -153,6 +153,7 @@ body {
     min-height: 250px;
     position: relative;
     top: 70px;
+    color :white;
 }
 @media (max-width:597px) {
     .landing {
