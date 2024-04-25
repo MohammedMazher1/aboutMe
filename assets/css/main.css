@@ -420,3 +420,12 @@ main .container{
 .dark_light:hover{
     color: var(--font-color);
 }
+
+footer{
+    background-color: var(--main--color);
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+    border-radius: 20px 20px 0 0 ;
+    margin: 5px;
+}
